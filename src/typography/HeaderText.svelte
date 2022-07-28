@@ -1,7 +1,7 @@
-<h1><slot /></h1>
+<h3><slot /></h3>
 
 <style>
-  h1 {
+  h3 {
     margin: 0;
     color: var(--color, black);
   }

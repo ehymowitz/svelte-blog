@@ -4,7 +4,10 @@
 </script>
 
 <nav>
-  <div>
+  <div class="home-link">
+    <a href="https://www.hymowitz.org" target="_blank">EH</a>
+  </div>
+  <div class="header-text">
     <HeaderText>Paper_Blog</HeaderText>
     <RegularText>This is a sample blog, I'm learning svelte</RegularText>
   </div>
@@ -12,13 +15,20 @@
 
 <style>
   nav {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid black;
+    background-color: inherit;
   }
-  div {
-    margin-left: 5%;
+  .header-text {
+    margin-left: 10%;
     display: grid;
     grid-template-columns: min-content 1fr;
     grid-gap: 20px;
     align-items: baseline;
+  }
+
+  .home-link {
+    position: absolute;
+    right: 5%;
+    top: 20px;
   }
 </style>
